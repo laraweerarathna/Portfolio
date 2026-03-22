@@ -95,11 +95,16 @@ h1, h2, h3 {
     text-align: center;
     background: linear-gradient(90deg, var(--primary-neon), var(--secondary-neon));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 p {
     color: var(--text-muted);
+}
+
+.about-card p {
+    text-align: justify;
 }
 
 /* Navbar */
